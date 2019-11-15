@@ -10,9 +10,11 @@ namespace CA1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\nModule8 prob2\n");
-            Console.WriteLine("Text showing output from CA1");
-            Console.WriteLine();
+            Console.WriteLine("This is a demonstration of Piping");
+            Console.WriteLine("Here is a second line of text from CA1");
+            Console.WriteLine("And yet another line of text from CA1");
+            
+            
         }
     }
 }

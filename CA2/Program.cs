@@ -11,7 +11,16 @@ namespace CA2
         static void Main(string[] args)
         {
             Console.WriteLine("\nThis is CA2");
-            Console.ReadLine();
+            //string s = Console.ReadLine();
+            //Console.WriteLine(s);
+            string arg = Console.ReadLine();
+            while ( arg.Length != 0)
+            {
+                Console.WriteLine(arg);
+                arg = Console.ReadLine();
+            }
+            
+
         }
     }
 }

@@ -10,6 +10,7 @@ namespace MyConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("This is a demonstration of command line arguments:");
             if (args.Length == 0)
             {
                 Console.WriteLine("There are no arguments");
@@ -18,7 +19,7 @@ namespace MyConsoleApp
             {
                 foreach(string arg in args)
                 {
-                    Console.WriteLine(arg);
+                    Console.WriteLine("Command: {0}",arg);
                 }
             }
         }
