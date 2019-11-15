@@ -21,6 +21,7 @@ namespace MyConsoleApp
                 {
                     Console.WriteLine("Command: {0}",arg);
                 }
+                //
             }
         }
     }

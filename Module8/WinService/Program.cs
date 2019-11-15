@@ -20,6 +20,6 @@ namespace WinService
                 new WinService()
             };
             ServiceBase.Run(ServicesToRun);
-        }
+        }//
     }
 }
